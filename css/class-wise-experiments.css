@@ -1,0 +1,593 @@
+/*====================================================================
+AUTHOR: REDJEE SOFTWARE LAB PRIVATE LIMITED
+PROJECT NAME: KOLB LABS
+======================================================================*/
+
+/*---------------------------------- 
+   Breadcurbs And Banner Section
+-------------------------------------*/
+
+#sixth-class-ts-bg::before,
+#sixth-class-ap-bg::before,
+#sixth-class-cbse-bg::before,
+#seventh-class-ts-bg::before,
+#seventh-class-ap-bg::before,
+#seventh-class-cbse-bg::before,
+#eighth-class-ts-bg::before,
+#eighth-class-ap-bg::before,
+#eighth-class-cbse-bg::before,
+#ninth-class-ts-bg::before,
+#ninth-class-ap-bg::before,
+#ninth-class-cbse-bg::before,
+#tenth-class-ts-bg::before,
+#tenth-class-ap-bg::before,
+#tenth-class-cbse-bg::before,
+#videos-materials-bg::before {
+    background-color: rgba(29, 27, 28, 0.6);
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#sixth-class-ts-bg,
+#sixth-class-ap-bg,
+#sixth-class-cbse-bg,
+#seventh-class-ts-bg,
+#seventh-class-ap-bg,
+#seventh-class-cbse-bg,
+#eighth-class-ts-bg,
+#eighth-class-ap-bg,
+#eighth-class-cbse-bg,
+#ninth-class-ts-bg,
+#ninth-class-ap-bg,
+#ninth-class-cbse-bg,
+#tenth-class-ts-bg,
+#tenth-class-ap-bg,
+#tenth-class-cbse-bg,
+#videos-materials-bg {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    padding: 120px 0 0;
+    position: relative;
+    width: 100%;
+    /*background-position: center;*/
+}
+
+#sixth-class-ts-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-1.jpg");
+}
+
+#sixth-class-ap-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-2.jpg");
+}
+
+#sixth-class-cbse-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-3.jpg");
+}
+
+#seventh-class-ts-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-4.jpg");
+}
+
+#seventh-class-ap-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-5.jpg");
+}
+
+#seventh-class-cbse-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-6.jpg");
+}
+
+#eighth-class-ts-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-7.jpg");
+}
+
+#eighth-class-ap-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-8.jpg");
+}
+
+#eighth-class-cbse-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-9.jpg");
+}
+
+#ninth-class-ts-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-10.jpg");
+}
+
+#ninth-class-ap-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-11.jpg");
+}
+
+#ninth-class-cbse-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-12.jpg");
+}
+
+#tenth-class-ts-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-14.jpg");
+}
+
+#tenth-class-ap-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-1.jpg");
+}
+
+#tenth-class-cbse-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-2.jpg");
+}
+
+#videos-materials-bg {
+    background-image: url("../img/Breadcurbs-bg/bg-4.jpg");
+}
+
+/*
+.state-syllabus {
+    text-align: center;
+    box-shadow: 0 0 2px 0 rgba(51, 51, 51, 0.08), 
+                0 0 2px 0 rgba(51, 51, 51, 0.08);
+}
+.state-syllabus .state-syllabus-header{
+    padding: 30px 0;
+    background: #4d4d4d;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.state-syllabus:hover .state-syllabus-header {
+    background: #00bac3;
+}
+.state-syllabus .state-syllabus-header:before,
+.state-syllabus .state-syllabus-header:after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #d9d9d8;
+    position: absolute;
+    bottom: 12px;
+}
+.state-syllabus .state-syllabus-header:before {
+    left: 40px;
+}
+.state-syllabus .state-syllabus-header:after {
+    right: 40px;
+}
+.state-syllabus .heading{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+.state-syllabus .heading-title {
+    display: inline-block;
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    color: #00bac3;
+    transition: all 0.3s ease 0s;
+}
+.state-syllabus:hover .heading-title {
+    color: #fb9d5b;
+    text-shadow: 0 0 2px rgba(0,0,0,0.4);
+}
+.state-syllabus .state-syllabus-content {
+    padding: 50px 0;
+    background: #fff;
+    position: relative;
+}
+.state-syllabus .state-syllabus-content:before,
+.state-syllabus .state-syllabus-content:after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #7c7c7c;
+    position: absolute;
+    top: 12px;
+}
+.state-syllabus .state-syllabus-content:before {
+    left: 40px;
+}
+.state-syllabus .state-syllabus-content:after {
+    right: 40px;
+}
+.state-syllabus .state-syllabus-content ul {
+    padding: 0 20px;
+    margin: 0;
+    list-style: none;
+}
+.state-syllabus .state-syllabus-content ul:before,
+.state-syllabus .state-syllabus-content ul:after{
+    content: "";
+    width: 8px;
+    height: 46px;
+    border-radius: 3px;
+    background: #f0b7a1;
+    background: -moz-linear-gradient(left, #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); 
+    background: -webkit-linear-gradient(left, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); 
+    background: linear-gradient(to right, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=1 );
+    position: absolute;
+    top: -22px;
+    z-index: 1;
+    box-shadow: 0 0 5px #707070;
+    transition: all 0.3s ease 0s;
+}
+.state-syllabus:hover .state-syllabus-content ul:before,
+.state-syllabus:hover .state-syllabus-content ul:after{
+    background: #feccb1; 
+    background: -moz-linear-gradient(left, #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); 
+    background: -webkit-linear-gradient(left, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%);
+    background: linear-gradient(to right, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 );
+}
+.state-syllabus .state-syllabus-content ul:before {
+    left: 44px;
+}
+.state-syllabus .state-syllabus-content ul:after {
+    right: 44px;
+}
+.state-syllabus .state-syllabus-content ul li {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 1px solid #d9d9d8;
+    text-transform: uppercase;
+}
+.state-syllabus .state-syllabus-content ul li a {
+    color: #333;
+}
+.state-syllabus .state-syllabus-content ul li.active a {
+    color: #00bac3;
+}
+.state-syllabus .state-syllabus-content ul li:last-child {
+    border-bottom: none;
+}
+@media screen and (max-width: 990px) {
+    .state-syllabus{ margin-bottom: 25px; }
+}
+.state-syllabus .info-box {
+    background: #eeeeee !important;
+    border: 1px solid #e4e4e4;
+    margin: 15px;
+    padding: 6px;
+}
+.state-syllabus .info-box-inner {
+    background: #ffffff;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+    padding: 25px;
+}
+
+.state-syllabus .info-box-inner a i {
+    font-size: 18px;
+}
+.state-syllabus .info-box h4 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+}*/
+
+.kolblabs-syllabus {
+    padding: 20px 0px;
+}
+
+.kolblabs-syllabus .index-content {
+    background: #ffffff;
+    min-height: 575px;
+    padding: 20px;
+    box-shadow: 0 0 2px 0 rgba(51, 51, 51, 0.08), 0 0 2px 0 rgba(51, 51, 51, 0.08);
+}
+
+.kolblabs-syllabus .index-content h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 20px;
+    line-height: 35px;
+}
+
+.kolblabs-syllabus .index-content h2 span {
+    color: #00bac3;
+}
+
+.kolblabs-syllabus .index-content ul.main-index {
+    margin-left: 0px;
+}
+
+@media (max-width: 767px) {
+    .kolblabs-syllabus .index-content ul.main-index {
+        margin-left: -34px;
+    }
+}
+
+.kolblabs-syllabus .index-content ul {
+    margin-left: 20px;
+}
+
+.kolblabs-syllabus .index-content li {
+    padding-left: 35px;
+    position: relative;
+}
+
+.kolblabs-syllabus .index-content .main-index li {
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.kolblabs-syllabus .index-content .main-index li {
+    color: #00bac3;
+    cursor: pointer;
+}
+
+.kolblabs-syllabus .index-content .main-index li.collapsed {
+    color: #000000;
+}
+
+.kolblabs-syllabus .index-content .sub-index {
+    margin-left: 35px;
+}
+
+.kolblabs-syllabus .index-content .sub-index li {
+    font-weight: normal;
+    font-size: 14px;
+    cursor: default;
+    color: #8c8c8c;
+}
+
+.kolblabs-syllabus .index-content .sub-index li:hover {
+    color: #e41515;
+}
+
+/*.kolblabs-syllabus .index-content .sub-index li i {
+    color: #000000;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    top: -4px;
+}*/
+
+.kolblabs-syllabus .index-content .sub-index li::before {
+    font-family: "Material Design Icons";
+    content: "\F4FD";
+    height: 0.25rem;
+    left: 9px;
+    color: #000;
+    position: absolute;
+    top: 0px;
+}
+
+/*----------------------------------------
+    Videos And Materials
+-------------------------------------------*/
+
+.videos-materials .card {
+    background: #FFF none repeat scroll 0% 0%;
+    box-shadow: 0 0 2px 0 rgba(51, 51, 51, 0.08), 0 0 2px 0 rgba(51, 51, 51, 0.08);
+    margin-bottom: 30px;
+    min-height: 650px;
+}
+
+.videos-materials .card .nav-tabs {
+    border-bottom: 2px solid #DDD;
+}
+
+.videos-materials .card .nav-tabs>li.active>a,
+.videos-materials .card .nav-tabs>li.active>a:focus,
+.videos-materials .card .nav-tabs>li.active>a:hover {
+    border-width: 0;
+}
+
+.videos-materials .card .nav-tabs>li>a {
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    color: #333;
+    padding: 20px 0;
+}
+
+.videos-materials .card .nav-tabs>li.active>a,
+.videos-materials .card .nav-tabs>li>a:hover {
+    border: none;
+    color: #00bac3 !important;
+    background: transparent;
+}
+
+.videos-materials .card .nav-tabs>li>a::after {
+    content: "";
+    background: #00bac3;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    transition: all 250ms ease 0s;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+}
+
+.videos-materials .card .nav-tabs>li.active>a::after,
+.videos-materials .card .nav-tabs>li:hover>a::after {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+
+.videos-materials .card .tab-nav>li>a::after {
+    background: #21527d none repeat scroll 0% 0%;
+    color: #fff;
+}
+
+.videos-materials .card .tab-pane {
+    padding: 15px 0;
+}
+
+.videos-materials .card .tab-content {
+    padding: 20px
+}
+
+.kolblabs-syllabus .videos-materials .card .index-content {
+    background: #ffffff;
+    padding: 0px;
+    box-shadow: none;
+}
+
+@media (max-width: 767px) {
+    .kolblabs-syllabus .videos-materials .card .nav-justified>li {
+        float: left;
+    }
+    .kolblabs-syllabus .videos-materials .card .nav-tabs>li {
+        float: left;
+        margin-bottom: -6px;
+        margin-left: 22px;
+    }
+}
+
+/*-----------------------------------
+    Video section
+----------------------------------*/
+
+.video-section .single-video {
+    position: relative;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 0 2px 0 rgba(51, 51, 51, 0.08), 0 0 2px 0 rgba(51, 51, 51, 0.08);
+}
+
+.video-section .single-video .video-title {
+    padding: 5px 10px;
+}
+
+.video-section .img-box img {
+    position: relative;
+    width: 100%;
+}
+
+.video-section .overlay-box {
+    position: absolute;
+    left: 0px;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #ffffff;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    transform: scaleY(0);
+}
+
+.video-section .overlay-inner {
+    background: linear-gradient(45deg, #00bac3 0%, #00abc3 1%, rgba(0, 186, 189, 0.4) 70%, #65c296 100%);
+    background: -webkit-linear-gradient(45deg, #00bac3 0%, #00abc3 1%, rgba(0, 186, 189, 0.4) 70%, #65c296 100%);
+    background: -moz-linear-gradient(45deg, #00bac3 0%, #00abc3 1%, rgba(0, 186, 189, 0.4) 70%, #65c296 100%);
+    background: -ms-linear-gradient(45deg, #00bac3 0%, #00abc3 1%, rgba(0, 186, 189, 0.4) 70%, #65c296 100%);
+    background: -o-linear-gradient(45deg, #00bac3 0%, #00abc3 1%, rgba(0, 186, 189, 0.4) 70%, #65c296 100%);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.video-section .video-box:hover .overlay-box {
+    top: 0px;
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.video-section .video-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-section .video-content {
+    position: absolute;
+    left: 0px;
+    top: 32%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: all 500ms ease;
+    opacity: 0;
+}
+
+.video-section .video-box:hover .video-content {
+    opacity: 1;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease 500ms;
+    -ms-transition: all 500ms ease 500ms;
+    -o-transition: all 500ms ease 500ms;
+    -moz-transition: all 500ms ease 500ms;
+}
+
+.video-section .video-content p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    color: #fff;
+    padding: 0px 10px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.video-section .video-content a {
+    animation: 0.8s cubic-bezier(0.8, 0, 0, 1) 1s normal none infinite running pulse;
+    background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(0, 186, 195, 0.9);
+    color: #00bac3;
+    display: inline-block;
+    font-size: 65px;
+    height: 75px;
+    line-height: 72px;
+    text-align: center;
+    width: 75px;
+}
+
+.video-section .video-content a:hover {
+    color: #60c5e4;
+    transition: all 500ms ease;
+}
+
+.video-section .video-title a {
+    font-size: 20px;
+    color: #222;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px;
+    display: block;
+    ;
+    transition: all 500ms ease;
+}
+
+.video-section .single-video:hover .video-title a {
+    color: #60c5e4;
+    transition: all 500ms ease;
+}
